@@ -1,0 +1,23 @@
+{
+  "projectName": "your-project-name",
+  "purpose": "Brief description of your project",
+  "targetStack": {
+    "framework": "",
+    "uiLibrary": "",
+    "styling": "",
+    "language": "TypeScript 5.x (strict)"
+  },
+  "structure": {
+    "mainFolders": []
+  },
+  "agentRules": {
+    "location": ".qoder/rules/",
+    "count": 5
+  },
+  "workflows": {
+    "location": ".agent/workflows/",
+    "files": [
+      "simpan-pengetahuan.md"
+    ]
+  }
+}
