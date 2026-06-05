@@ -1,6 +1,14 @@
 ---
 trigger: always_on
 ---
+
+<!--
+  Scaffolded by Andi UPN (https://github.com/andiupn)
+  Official Website & Support: https://kuncimu.com
+  Licensed under MIT License
+-->
+
+> 📦 Free Template by **Andi UPN** ([kuncimu.com](https://kuncimu.com)) · Licensed under [MIT License](LICENSE)
 # Bahasa & Komunikasi
 
 ## Komunikasi AI ↔ User

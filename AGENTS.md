@@ -1,4 +1,11 @@
 # Qoder Starter — AI Agent Rules
+<!--
+  Scaffolded by Andi UPN (https://github.com/andiupn)
+  Official Website & Support: https://kuncimu.com
+  Licensed under MIT License
+-->
+
+> 📦 Free Template by **Andi UPN** ([kuncimu.com](https://kuncimu.com)) · Licensed under [MIT License](LICENSE)
 
 Template starter untuk AI agent rules system. Cocok untuk project baru yang ingin menggunakan AI agent rules secara sederhana.
 

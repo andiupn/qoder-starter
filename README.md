@@ -1,85 +1,100 @@
-# Qoder Starter
+# Qoder Starter 🛰️
 
-Template AI agent rules yang ringan dan mudah digunakan untuk project baru.
+<div align="center">
+  <strong>English</strong> | <a href="README.id.md">Bahasa Indonesia</a>
+</div>
 
-## Apa Ini?
+<br />
 
-Qoder Starter adalah **subset dari Qoder Pro** yang berisi 5 rules fundamental untuk AI agent. Cocok untuk developer yang ingin menggunakan AI agent rules secara sederhana tanpa setup yang kompleks.
+<div align="center">
+  <h3><strong>An AI agent without rules is just a chaotic script.</strong></h3>
+  <p><strong>Qoder Starter is a lightweight, AI-first rules system designed to align AI agent behaviors with pristine coding conventions in Cursor, Gemini, and Claude Code.</strong></p>
 
-## Yang Termasuk
+  <p>Stop wasting tokens, suffering from AI hallucinations, and struggling with inconsistent code styles. Power your coding assistant with 5 fundamental rule sheets instantly.</p>
+</div>
 
-| Komponen | Jumlah | Deskripsi |
-|----------|--------|-----------|
-| Rules | 5 | Bahasa, code conventions, git, security, memory |
-| Workflows | 1 | Simpan pengetahuan (knowledge save) |
-| Scripts | 2 | Sync stats + save knowledge |
-| Memory entries | 0 | Struktur kosong, siap diisi |
+> 📦 Free template by **andiupn** ([kuncimu.com](https://kuncimu.com)) · Licensed under [MIT License](LICENSE)  
+> ☕ If useful, [buy me a coffee](https://ko-fi.com/andiupn) · 🚀 Need advanced monorepos, custom agents, and pre-packaged memory? Try the [PRO version](https://kuncimu.com)
 
-### Rules yang Termasuk
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/andiupn/qoder-starter)](https://github.com/andiupn/qoder-starter/releases)
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-Support-ff5f5f?logo=ko-fi)](https://ko-fi.com/andiupn)
+[![Patreon](https://img.shields.io/badge/Patreon-Support-f96854?logo=patreon)](https://patreon.com/AndiUpn)
+[![Trakteer](https://img.shields.io/badge/Trakteer-Support-red?logo=trakteer)](https://trakteer.id/andi_upn/gift)
+[![Saweria](https://img.shields.io/badge/Saweria-Support-yellow?logo=saweria)](https://saweria.co/andiupn)
 
-1. **bahasa.md** — Konvensi bahasa (ID untuk komunikasi, EN untuk kode)
-2. **code-conventions.md** — Format kode, naming, TypeScript, React components
-3. **git-conventions.md** — Conventional Commits, branching strategy
-4. **security.md** — Input validation (Zod), XSS prevention, secrets management
-5. **memory-usage.md** — Sistem memory dan knowledge management
-
-## Quick Setup
-
-### Opsi 1: Copy Manual
-```bash
-# Copy folder-file ini ke root project Anda
-cp -r .qoder/ /path/to/your-project/
-cp -r .agent/ /path/to/your-project/
-cp -r scripts/ /path/to/your-project/
-cp AGENTS.md /path/to/your-project/
-```
-
-### Opsi 2: Clone sebagai Template
-```bash
-# Clone repo ini
-git clone https://github.com/yourusername/qoder-starter.git my-project
-cd my-project
-# Mulai develop!
-```
-
-## Kustomisasi
-
-### Menambah Rule Baru
-Buat file `.md` baru di `.qoder/rules/` dengan format:
-```markdown
 ---
-trigger: always_on
+
+## 💡 The Problem: The Chaos of AI Code Assistants
+AI assistants are incredibly fast. However, without pre-configured guidelines, they write unstructured code, ignore your naming conventions, leak secrets, and make erratic git commits that mess up your repository history.
+
 ---
-# Nama Rule
 
-## Deskripsi
-...
+## ⚡ The Solution: The 5 Fundamental AI Rules
+
+### 1. 📜 Code & Language Conventions
+Keeps language clear (`bahasa.md`: Indonesian for chat, English for code) and enforces standard formatting (`code-conventions.md`: arrow functions, TypeScript strict, JSDoc).
+
+### 🔒 2. Zero-Hallucination Security
+Guards API keys and credentials, enforcing data validation (Zod) and XSS prevention rules (`security.md`) before writing any code.
+
+### 🧠 3. Historical Knowledge System
+Configures memory guidelines (`memory-usage.md`) and git conventions (`git-conventions.md`) so the AI agent learns from your repository history, using `/skills` to save session discoveries.
+
+---
+
+## 📊 LITE vs PRO: The Premium Upgrade
+
+| What You Get | 🆓 LITE (Starter) | 💎 PRO (Premium) |
+|---|:---:|:---:|
+| **Fundamental Rules** | 5 | 10 (adds: error handling, testing, stack, etc.) |
+| **Specialized Custom Agents** | ❌ | 5 (`code-reviewer`, `nextjs-specialist`, etc.) |
+| **Memory Entries (Generic Seed)** | ❌ | 11 (Next.js config fixes, Playwright, Redis) |
+| **DevOps & MCP Configurations** | ❌ | ✅ (`mcp.json` templates) |
+| **Upstream Updates** | Via GitHub | Via kuncimu.com |
+
+👉 **[View Full Feature Comparison & Upgrade Guide](COMPARISON.md)**
+
+---
+
+## 📂 Repository Blueprint
+
+```
+your-workspace/
+  .qoder/              # System rules for AI agents (bahasa, conventions, security)
+  .agent/              # AI memory context, entries, and workflows
+  scripts/             # Python tools (save-knowledge, sync-stats)
+  AGENTS.md            # The master AI system instructions (entry point)
+  .env.example         # Template for environment variables
 ```
 
-### Mengisi Memory
-Tambahkan file `.md` ke kategori yang sesuai di `.agent/memory/entries/`:
-- `gotchas/` — Bug unik dan solusinya
-- `patterns/` — Pola kode reusable
-- `decisions/` — Keputusan arsitektur
-- `context/` — Informasi lingkungan
+---
 
-Setelah menambah memory, jalankan:
+## 🚀 Get Started in 3 Steps
+
+### 1. Copy configurations:
+Copy the `.qoder/`, `.agent/`, `scripts/`, and `AGENTS.md` to your project root.
+
+### 2. Configure environment:
 ```bash
-python scripts/sync-agents-stats.py
+cp .env.example .env
 ```
 
-### Mengubah `project-context.json`
-Edit `.agent/context/project-context.json` untuk menambahkan info project Anda (stack, struktur, dll).
+### 3. Start Coding:
+Open the project in Cursor or run Claude Code. The AI agent will read the rules automatically!
 
-## Upgrade ke Pro
+---
 
-Ingin rules yang lebih lengkap? Upgrade ke **Qoder Pro** yang mencakup:
-- 10 rules (error handling, testing, MCP tools, Next.js stack, dll)
-- 5 custom AI agent templates (code reviewer, Next.js specialist, dll)
-- 13 generic memory entries (gotchas & patterns yang umum digunakan)
-- Project setup skill
-- MCP configuration template
+## 💖 Support This Project (Donations)
 
-## Lisensi
+If this template has accelerated your coding workflow, consider supporting:
+- **Ko-fi:** [ko-fi.com/andiupn](https://ko-fi.com/andiupn)
+- **Patreon:** [patreon.com/AndiUpn](https://patreon.com/AndiUpn)
+- **Trakteer:** [trakteer.id/andi_upn/gift](https://trakteer.id/andi_upn/gift)
+- **Saweria:** [saweria.co/andiupn](https://saweria.co/andiupn)
 
-MIT — Bebas digunakan, dimodifikasi, dan didistribusikan.
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more information.
