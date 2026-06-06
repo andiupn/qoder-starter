@@ -70,6 +70,22 @@ your-workspace/
 
 ---
 
+## 🖼️ Preview
+
+<p align="center">
+  <img src="assets/screenshots/starter-rules-overview.png" alt="Qoder Starter Rules Overview" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/comparison-starter-vs-pro.png" alt="Starter vs PRO Comparison" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/starter-validation.png" alt="Qoder Starter Validation" width="600"/>
+</p>
+
+---
+
 ## 🚀 Get Started in 3 Steps
 
 ### 1. Copy configurations:

@@ -47,9 +47,9 @@ Mengonfigurasi panduan memori (`memory-usage.md`) dan konvensi git (`git-convent
 
 | Fitur | 🆓 LITE (Starter) | 💎 PRO (Premium) |
 |---|:---:|:---:|
-| **Rules Fundamental** | 5 | 10 (tambah: error handling, testing, stack, dll.) |
+| **Rules Fundamental** | 5 | 14 (tambah: error handling, testing, stack, a11y, dll.) |
 | **Custom Agent Spesialis** | ❌ | 5 (`code-reviewer`, `nextjs-specialist`, dll.) |
-| **Entri Memori Bawaan** | ❌ | 11 (perbaikan Next.js, Playwright, Redis) |
+| **Entri Memori Bawaan** | ❌ | 12 (perbaikan Next.js, Playwright, Redis) |
 | **Konfigurasi DevOps & MCP** | ❌ | ✅ (templat `mcp.json`) |
 | **Pembaruan Berkelanjutan** | Via GitHub | Via kuncimu.com |
 
