@@ -4,7 +4,6 @@ node_modules/
 .pnp.js
 
 # Environment
-.env
 .env.local
 .env.*.local
 .env.production
@@ -15,6 +14,7 @@ out/
 build/
 dist/
 *.tsbuildinfo
+next-env.d.ts
 
 # IDE
 .idea/
@@ -28,6 +28,16 @@ Thumbs.db
 
 # Testing
 coverage/
+
+# Deployment
+.vercel
+
+# Security
+*.pem
+
+# Python (scripts)
+__pycache__/
+*.pyc
 
 # Misc
 *.log
