@@ -5,7 +5,7 @@
 ## TL;DR
 
 - **LITE / Starter (Gratis):** Cocok untuk proyek sederhana atau perorangan. Menyertakan 5 rules fundamental untuk AI agent, 1 workflow, 2 skrip, dan lisensi open-source MIT.
-- **PRO / Premium (Berbayar $1–$5):** Ditujukan untuk pengembang profesional, freelancer, dan agensi. Menyertakan 10 rules lengkap, 5 agen AI spesialis kustom, 11 entri memori bawaan (gotchas, patterns, decisions), templat konfigurasi MCP, dan lisensi komersial.
+- **PRO / Premium (Berbayar $1–$5):** Ditujukan untuk pengembang profesional, freelancer, dan agensi. Menyertakan 14 rules lengkap, 5 agen AI spesialis kustom, 12 entri memori bawaan (gotchas, patterns, decisions), templat konfigurasi MCP, dan lisensi komersial.
 
 ---
 
@@ -62,7 +62,7 @@
 ### Pilih **PRO (Premium)** jika:
 - ✅ Anda mengelola banyak proyek aktif untuk klien atau internal (Agensi / Freelancer).
 - ✅ Anda membutuhkan state-management pengetahuan (Riset, Rencana, Memory) yang terintegrasi.
-- ✅ Anda ingin meningkatkan kecepatan pengerjaan dengan 11 seed memory dan 5 custom agents.
+- ✅ Anda ingin meningkatkan kecepatan pengerjaan dengan 12 seed memory dan 5 custom agents.
 - ✅ Anda ingin mendukung pemeliharaan berkelanjutan dari proyek ini.
 
 ---

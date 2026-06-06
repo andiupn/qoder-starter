@@ -47,9 +47,9 @@ Configures memory guidelines (`memory-usage.md`) and git conventions (`git-conve
 
 | What You Get | 🆓 LITE (Starter) | 💎 PRO (Premium) |
 |---|:---:|:---:|
-| **Fundamental Rules** | 5 | 10 (adds: error handling, testing, stack, etc.) |
+| **Fundamental Rules** | 5 | 14 (adds: error handling, testing, stack, a11y, etc.) |
 | **Specialized Custom Agents** | ❌ | 5 (`code-reviewer`, `nextjs-specialist`, etc.) |
-| **Memory Entries (Generic Seed)** | ❌ | 11 (Next.js config fixes, Playwright, Redis) |
+| **Memory Entries (Generic Seed)** | ❌ | 12 (Next.js config fixes, Playwright, Redis) |
 | **DevOps & MCP Configurations** | ❌ | ✅ (`mcp.json` templates) |
 | **Upstream Updates** | Via GitHub | Via kuncimu.com |
 
