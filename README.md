@@ -14,7 +14,7 @@
 </div>
 
 > 📦 Free template by **andiupn** ([kuncimu.com](https://kuncimu.com)) · Licensed under [MIT License](LICENSE)  
-> ☕ If useful, [buy me a coffee](https://ko-fi.com/andiupn) · 🚀 Need advanced monorepos, custom agents, and pre-packaged memory? Try the [PRO version](https://kuncimu.com)
+> ☕ If useful, [buy me a coffee](https://ko-fi.com/andiupn) · 🚀 Need advanced monorepos, custom agents, and pre-packaged memory? Try the [PRO version](https://github.com/sponsors/andiupn?frequency=monthly)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/andiupn/qoder-starter)](https://github.com/andiupn/qoder-starter/releases)
@@ -51,7 +51,7 @@ Configures memory guidelines (`memory-usage.md`) and git conventions (`git-conve
 | **Specialized Custom Agents** | ❌ | 5 (`code-reviewer`, `nextjs-specialist`, etc.) |
 | **Memory Entries (Generic Seed)** | ❌ | 12 (Next.js config fixes, Playwright, Redis) |
 | **DevOps & MCP Configurations** | ❌ | ✅ (`mcp.json` templates) |
-| **Upstream Updates** | Via GitHub | Via kuncimu.com |
+| **Upstream Updates** | Via GitHub | Via [GitHub Sponsors](https://github.com/sponsors/andiupn?frequency=monthly) |
 
 👉 **[View Full Feature Comparison & Upgrade Guide](COMPARISON.md)**
 

@@ -14,7 +14,7 @@
 </div>
 
 > 📦 Free template by **andiupn** ([kuncimu.com](https://kuncimu.com)) · Dilisensikan di bawah [MIT License](LICENSE)  
-> ☕ Jika bermanfaat, [beli saya kopi](https://ko-fi.com/andiupn) · 🚀 Butuh monorepo canggih, agen khusus, dan memori bawaan? Coba [versi PRO](https://kuncimu.com)
+> ☕ Jika bermanfaat, [beli saya kopi](https://ko-fi.com/andiupn) · 🚀 Butuh monorepo canggih, agen khusus, dan memori bawaan? Coba [versi PRO](https://github.com/sponsors/andiupn?frequency=monthly)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/andiupn/qoder-starter)](https://github.com/andiupn/qoder-starter/releases)
@@ -51,7 +51,7 @@ Mengonfigurasi panduan memori (`memory-usage.md`) dan konvensi git (`git-convent
 | **Custom Agent Spesialis** | ❌ | 5 (`code-reviewer`, `nextjs-specialist`, dll.) |
 | **Entri Memori Bawaan** | ❌ | 12 (perbaikan Next.js, Playwright, Redis) |
 | **Konfigurasi DevOps & MCP** | ❌ | ✅ (templat `mcp.json`) |
-| **Pembaruan Berkelanjutan** | Via GitHub | Via kuncimu.com |
+| **Pembaruan Berkelanjutan** | Via GitHub | Via [GitHub Sponsors](https://github.com/sponsors/andiupn?frequency=monthly) |
 
 👉 **[Lihat Perbandingan Fitur Lengkap & Panduan Upgrade](COMPARISON.md)**
 
