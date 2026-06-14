@@ -12,12 +12,17 @@
   },
   "agentRules": {
     "location": ".qoder/rules/",
-    "count": 5
+    "count": 5,
+    "layers": {
+      "1-general": ["bahasa", "code-conventions", "git-conventions", "memory-usage", "security"]
+    }
   },
+  "mcpServers": {},
   "workflows": {
     "location": ".agent/workflows/",
     "files": [
       "simpan-pengetahuan.md"
     ]
-  }
+  },
+  "lastUpdated": "2026-06-14"
 }

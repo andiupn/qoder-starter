@@ -54,6 +54,7 @@ Follow all rules in `.qoder/rules/`. Key rules:
 - **React:** Server Components by default. `'use client'` only when needed.
 - **Validation:** Zod for all Server Action inputs.
 - **Testing:** Vitest (unit) + Playwright (E2E).
+- **MCP (optional):** Configure in `mcp.json` at project root for Redis, Playwright, etc.
 
 ---
 
